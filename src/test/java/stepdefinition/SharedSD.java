@@ -1,14 +1,14 @@
 package stepdefinition;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import util.ConfigReader;
 
-public class SharedSD {
+import java.util.concurrent.TimeUnit;
+
+public class   SharedSD {
 
 	private static WebDriver driver = null;
 
@@ -19,6 +19,7 @@ public class SharedSD {
 		System.setProperty("webdriver.chrome.driver",
 				configReader.getChromeDriverPath());
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(configReader.getUrl());

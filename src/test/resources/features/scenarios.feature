@@ -9,7 +9,7 @@ Feature Final Project
     And I click on search icon
     Then Hour timeline value should display 24 hours with 2 hours increment
 
-  @darksky-2
+  @darksky-2  
   Scenario: Verify 12 hours timeline hour values are displayed correctly
     Given I am on home page of darksky
     When I enter "10001" in search bar text field
@@ -30,8 +30,8 @@ Feature Final Project
     Given I am on home page of amazon
     When I click on sign in button
     And I click on create your amazon account on login screen
-    And I enter name as "John Smith" on full name field on create account screen
-    And I enter email as "JohnSmith@gmail.com" on email field on create account screen
+    And I enter name as "Khan Mamun" on full name field on create account screen
+    And I enter email as "khan_mamun@gmail.com" on email field on create account screen
     And I enter password as "test12345" on password field create account screen
     And I enter re-enter-password as "test12345" on Re-enter password field on create account screen
     And I click on create your amazon account button on create account screen

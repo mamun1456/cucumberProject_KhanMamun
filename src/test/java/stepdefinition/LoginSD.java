@@ -5,12 +5,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import framework.HomePage;
 import framework.LoginPage;
-import framework.TestRunner;
 import org.testng.Assert;
 
-/**
- * Created by mohammadmuntakim on 6/9/17.
- */
+
 public class LoginSD {
 
     private HomePage homePage = new HomePage();

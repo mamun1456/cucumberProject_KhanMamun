@@ -27,6 +27,6 @@ Feature: Login feature
     Then I verify that i am an invalid login page
 
     Examples:
-      | username                      | password |
-      | mohammad@technosoftacademy.io | test1234 |
-      | chris@technosoftacademy.io    | abc123   |
+      | username        | password |
+      | mamun@gmail.com | test1234 |
+      | khan@gmail.com  | abc123   |

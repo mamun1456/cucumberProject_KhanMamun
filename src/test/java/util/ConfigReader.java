@@ -5,10 +5,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * Created by Mohammad Mutakim on 11/11/17.
- */
-public class ConfigReader {
+
+public class  ConfigReader {
 
     private String url;
     private String chromeDriverPath;
@@ -22,10 +20,8 @@ public class ConfigReader {
 
             input = new FileInputStream("config.properties");
 
-            // load a properties file
             prop.load(input);
 
-            // get the property value and print it out
             this.url = prop.getProperty("url");
             this.chromeDriverPath = prop.getProperty("chrome_driver_path");
 

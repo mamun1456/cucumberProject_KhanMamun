@@ -6,8 +6,8 @@ Feature: Verify Signup Feature
 
   @signup
   Scenario: Verify invalid signup
-    When I enter mohammad into firstname text fields on home screen
-    And I enter muntakim into lastname text fields on home screen
+    When I enter mamun into firstname text fields on home screen
+    And I enter Khan into lastname text fields on home screen
     And I enter 888888 into mobile number text fields on home screen
     And I enter test1234 into new password text fields on home screen
     And I click on create account button on home screen
