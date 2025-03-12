@@ -45,11 +45,4 @@ public class HomePage extends BasePage{
 	public String getErrorMessage() {
 		return getTextFromElement(errorMessage);
 	}
-
-
-
-
-
-
-
 }
